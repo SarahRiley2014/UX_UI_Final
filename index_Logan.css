@@ -1,6 +1,8 @@
 /*hello*/
 .footerMain {
     background: var(--ruby-red, #861B48);
+    display: flex;
+    width: 100%
 }
 .copyRight {
     color: #FFF;
