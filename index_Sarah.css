@@ -49,24 +49,64 @@ width: 30%;
 
 #colorInspo {
     display: grid;
-        grid-template-columns: 12.5% 25% 25% 25% 12.5;
-        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5%;
+        grid-template-rows: 20% 20% 20% 20% 20%;}
       
-}
 
 
-#inspo2 {grid-column: 2; grid-row: 2;}
+#inspo1 {grid-column: 2; grid-row: 2; padding-bottom: 75px;}
 
-#inspo3 {grid-column: 3; grid-row: 2;}
+#inspo2 {grid-column: 3; grid-row: 2; padding-bottom: 75px;}
 
-#inspo4 {grid-column: 4; grid-row: 2;}
+#inspo3 {grid-column: 4; grid-row: 2; padding-bottom: 75px;}
 
-#inspobtn {grid-column: 4; grid-row: 5;}
+#inspo4 {grid-column: 5; grid-row: 2; padding-bottom: 75px;}
+
+#inspobtn {grid-column: 5; grid-row: 5;}
+
 
 #hueFinder {
     display: grid;
-         grid-template-columns: 25% 25% 25% 25%;
-         grid-template-rows: 20% 20% 20% 20% 20%;
-  }
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+}
 
- # 
+#huebtn {
+    grid-column: 4;
+    grid-row: 5;
+
+}
+
+#hueImg {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#myProjects {
+    display: grid;
+    grid-template-columns: 5% 23% 23% 23% 5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#nursImg {
+    grid-column: 2;
+    grid-row: 2;
+    padding-bottom: 75px;
+}
+
+#kitchImg {
+    grid-column: 3;
+    grid-row: 2;
+    padding-bottom: 75px;
+    
+}
+
+#probtn {
+grid-column: 4;
+grid-row: 2;
+padding-bottom: 75px;
+
+}
