@@ -36,6 +36,7 @@ li {
 }
 .topNav li:hover {
     color: #861B48;
+    font-weight: 600;
 }
 .topNav li:active {
     color: #000;
