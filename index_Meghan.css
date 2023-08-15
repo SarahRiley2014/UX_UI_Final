@@ -1,0 +1,17 @@
+/* This is the design for the header navigation */
+.navigation {
+    width: 100%;
+    margin-bottom: 50px;
+    flex-shrink: 0;
+}
+.logo {
+    display: flex;
+    text-align: left;
+}
+.topNav {
+    width: 100%;
+    padding-top: 15px;
+    list-style-type: none;
+    display: flex;
+    vertical-align: top; 
+}
