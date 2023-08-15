@@ -1,0 +1,72 @@
+h1 {
+    color: #FFF;
+/* Header */
+font-family: Alegreya;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #0E8B7E;
+box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+width: 30%;
+
+}
+
+.button {color: #000;
+    font-family: Alegreya;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:400px;
+    height: 75px;
+    background: var(--nvm-its-yellow, #FDC542);
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 0;
+    }
+
+.projectsbtn {
+    
+    border-color: #FA8401;
+    border-width: 10px;
+    color: var(--orange-u-glad-its-not-yellow, #FA8401);
+    font-family: Alegreya;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 295px;
+    height:295px;
+    background: #FFF;
+    border-radius: 295px;    
+    }
+
+.heroImage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#colorInspo {
+    display: grid;
+        grid-template-columns: 12.5% 25% 25% 25% 12.5;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+      
+}
+
+
+#inspo2 {grid-column: 2; grid-row: 2;}
+
+#inspo3 {grid-column: 3; grid-row: 2;}
+
+#inspo4 {grid-column: 4; grid-row: 2;}
+
+#inspobtn {grid-column: 4; grid-row: 5;}
+
+#hueFinder {
+    display: grid;
+         grid-template-columns: 25% 25% 25% 25%;
+         grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+ # 
