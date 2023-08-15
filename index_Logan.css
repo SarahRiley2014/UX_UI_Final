@@ -1,1 +1,4 @@
 /*hello*/
+.footerMain {
+    background: var(--ruby-red, #861B48);
+}
