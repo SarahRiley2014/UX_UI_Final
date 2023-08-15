@@ -16,17 +16,14 @@ margin: 5px;
 
 .pageRights {
     color: #FFF;
-text-align: right;
-font-feature-settings: 'clig' off, 'liga' off;
 display: flex;
 /* Paragraph/Default */
 font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-align-items: flex-end;
-margin: 5px;
 justify-content: flex-end;
+padding: 5px;
 }
 
 .termsAndConditions{
@@ -38,6 +35,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 text-decoration-line: underline;
+padding: 5px;
 }
 
 .privacyPolicy {
@@ -49,4 +47,5 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 text-decoration-line: underline;
+padding: 5px;
 }
