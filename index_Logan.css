@@ -9,21 +9,41 @@ font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
-
-float: left;
+margin: 5px;
 }
 
 .pageRights {
     color: #FFF;
-text-align: right;
-font-feature-settings: 'clig' off, 'liga' off;
-
+display: flex;
 /* Paragraph/Default */
 font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
-align-items: flex-end;
+justify-content: flex-end;
+padding: 5px;
+}
+
+.termsAndConditions{
+    color: #EFFF3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-decoration-line: underline;
+padding: 5px;
+}
+
+.privacyPolicy {
+    color: #EFFF3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-decoration-line: underline;
+padding: 5px;
 }
