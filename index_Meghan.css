@@ -1,7 +1,7 @@
 /* This is the design for the header navigation */
 .navigation {
     width: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     flex-shrink: 0;
 }
 .logo {
@@ -14,7 +14,8 @@
     list-style-type: none;
     display: flex;
     vertical-align: top;
-    justify-content: flex-end 
+    justify-content: flex-end; 
+    align-items: flex-end;  
 }
 li {
     text-align: center;
