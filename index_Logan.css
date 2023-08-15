@@ -2,3 +2,28 @@
 .footerMain {
     background: var(--ruby-red, #861B48);
 }
+.copyRight {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+
+float: left;
+}
+
+.pageRights {
+    color: #FFF;
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/Default */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+align-items: flex-end;
+}
