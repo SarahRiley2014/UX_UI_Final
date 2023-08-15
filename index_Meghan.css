@@ -34,3 +34,9 @@ li {
     justify-content: center;
     flex-shrink: 0;
 }
+.topNav li:hover {
+    color: #518265;
+}
+.topNav li:active {
+    color: #000;
+}
