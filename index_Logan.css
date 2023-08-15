@@ -26,3 +26,25 @@ align-items: flex-end;
 margin: 5px;
 justify-content: flex-end;
 }
+
+.termsAndConditions{
+    color: #EFFF3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-decoration-line: underline;
+}
+
+.privacyPolicy {
+    color: #EFFF3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-decoration-line: underline;
+}
