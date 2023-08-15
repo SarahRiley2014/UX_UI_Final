@@ -15,6 +15,7 @@
     display: flex;
     vertical-align: top;
     justify-content: flex-end 
+    align-items: flex-end;  
 }
 li {
     text-align: center;
