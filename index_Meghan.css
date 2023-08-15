@@ -31,7 +31,7 @@ li {
     width: 20%;
     height: 66px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     flex-shrink: 0;
 }
 .topNav li:hover {
