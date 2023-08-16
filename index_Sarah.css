@@ -41,10 +41,44 @@ width: 30%;
     border-radius: 295px;    
     }
 
-.heroImage {
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
+#About {display: grid;
+    grid-template-columns: 10% 25% 25% 25%;
+    grid-template-rows: 30% 10% 20% 30%;
+    }
+
+#heroImg {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+#AbtH {   
+    color: var(--if-green-wanted-to-be-blue, #0E8B7E);
+    font-family: Alegreya;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column:2 ;
+    grid-row: 2;
+
+}
+
+#AbtP {
+    grid-column: 2;
+    grid-row: 3;
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+}
+
+#logoImg {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 5px;
 }
 
 #colorInspo {
