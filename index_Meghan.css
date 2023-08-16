@@ -17,7 +17,7 @@
     justify-content: flex-end; 
     align-items: flex-end;  
 }
-li {
+a {
     text-align: center;
     list-style-type: none;
     list-style: none;
@@ -35,12 +35,13 @@ li {
     flex-direction: column;
     justify-content: flex-end;
     flex-shrink: 0;
+    text-decoration: none;
 }
-.topNav li:hover {
+.topNav a:hover {
     color: #861B48;
     font-weight: 600;
 }
-.topNav li:active {
+.topNav a:active {
     color: #000;
 }
 
