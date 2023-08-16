@@ -43,7 +43,7 @@ width: 30%;
 
 #About {display: grid;
     grid-template-columns: 10% 25% 25% 25%;
-    grid-template-rows: 30% 10% 25% 5%;
+    grid-template-rows: 50% 10% 25% 15%;
     height: 800px;
     }
 
