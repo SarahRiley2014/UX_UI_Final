@@ -148,3 +148,156 @@ grid-row: 2;
 /* padding-bottom: 75px; */
 
 }
+
+@media screen and (max-width: 600px) {
+    h1 {color: #FFF;
+    /* Header */
+    font-family: Alegreya;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #0E8B7E;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+    width:fit-content;
+    height: fit-content;
+    padding-left: 35px;}
+
+    .button {color: #000;
+        font-family: Alegreya;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width:fit-content;
+        height: fit-content;
+        background: var(--nvm-its-yellow, #FDC542);
+        box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+        border: 0;
+        }
+    
+    .projectsbtn {
+        
+        border-color: #FA8401;
+        border-width: 10px;
+        color: var(--orange-u-glad-its-not-yellow, #FA8401);
+        font-family: Alegreya;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 200px;
+        height:200px;
+        background: #FFF;
+        border-radius: 200px;    
+        }
+    
+    #About {display: grid;
+        grid-template-columns: 10% 25% 25% 25%;
+        grid-template-rows: 50% 10% 25% 15%;
+        height: 800px;
+        }
+    
+    #heroImg {
+        grid-column-start: 1;
+        grid-column-end: span;
+        
+    }
+    
+    #AbtH {   
+        color: var(--if-green-wanted-to-be-blue, #0E8B7E);
+        font-family: Alegreya;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        grid-column:1 ;
+        grid-row: 2;
+    
+    }
+    
+    #AbtP {
+        grid-column: 1;
+        grid-row: 3;
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px; /* 145.833% */
+    }
+    
+    #logoImg {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 5px;
+    }
+    
+    #colorInspo {
+        display: grid;
+            grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5%;
+            grid-template-rows: 20% 20% 20% 20% 20%;}
+          
+    
+    
+    #inspo1 {grid-column: 2; grid-row: 2; padding-bottom: 75px;}
+    
+    #inspo2 {display: none;}
+    
+    #inspo3 {display: none;}
+    
+    #inspo4 {display: none;
+    
+    #inspobtn {grid-column: 5; grid-row: 5;}
+    
+    
+    #hueFinder {
+        display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+    
+    #huebtn {
+        grid-column: 4;
+        grid-row: 5;
+    
+    }
+    
+    #hueImg {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 1;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    #myProjects {
+        display: grid;
+        grid-template-columns: 5% 23% 23% 23% 5%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        padding-bottom: 35px;
+        justify-content: space-around;
+    }
+    
+    #nursImg {
+        grid-column: 2;
+        grid-row: 2;
+        padding-bottom: 75px;
+    }
+    
+    #kitchImg {
+        grid-column: 3;
+        grid-row: 2;
+        padding-bottom: 75px;
+        
+    }
+    
+    #probtn {
+    grid-column: 4;
+    grid-row: 2;
+    /* padding-bottom: 75px; */
+    
+    }
+   
+
+  } }

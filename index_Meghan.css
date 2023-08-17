@@ -3,6 +3,9 @@
     width: 100%;
     /* margin-bottom: 50px; */
     flex-shrink: 0;
+    position: fixed;
+    background-color: white;
+    height: fit-content;
 
 }
 .logo {
