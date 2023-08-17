@@ -8,11 +8,10 @@
     height: fit-content;
 
 }
-.logo {
+#logo {
     display: flex;
     text-align: left;
-    height: auto;
-    width: 100px;
+  
 }
 
 .topNav {
@@ -62,13 +61,15 @@ a {
         /* margin-bottom: 50px; */
         flex-shrink: 0;
         position: fixed;
-        background-color: white;
+        background-color: whites;
         height: fit-content;
     
     }
-    .logo {
+    #logo {
         display: flex;
         text-align: left;
+        width: 125px;
+        height: auto;
     }
     .topNav {
         width: 100%;
